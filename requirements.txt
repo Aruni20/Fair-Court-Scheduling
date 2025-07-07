@@ -1,0 +1,8 @@
+pymysql
+kafka-python
+faker
+pandas
+streamlit
+pymongo
+clickhouse-connect
+pyspark==3.4.0

@@ -1,0 +1,45 @@
+# --- Python Cache Files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual Environments ---
+env/
+venv/
+ENV/
+.venv/
+
+# --- Docker ---
+*.pid
+*.sock
+*.pid.lock
+
+# --- Apache Airflow ---
+airflow.db
+airflow.cfg
+unittests.cfg
+logs/
+*.err
+*.out
+
+# --- HDFS Local Folder (Optional) ---
+hdfs/live/
+hdfs/historical/
+hdfs/scheduled/
+
+# --- HTML Reports ---
+reports/
+*.html
+
+# --- Streamlit ---
+.streamlit/
+
+# --- OS & Editor Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Optional: VSCode & JetBrains IDEs ---
+.vscode/
+.idea/
